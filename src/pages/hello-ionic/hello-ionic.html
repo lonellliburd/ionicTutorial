@@ -3,23 +3,49 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Hello Ionic</ion-title>
+    <ion-title></ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only color="royal">
+        <ion-icon name="person-add"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 
 <ion-content padding>
 
-  <h3>Welcome to your first Ionic app!</h3>
+  <img src="assets/imgs/pizzaHut-logo.png"/>
 
-  <p>
-    This starter project is our way of helping you get a functional app running in record time.
-  </p>
-  <p>
-    Follow along on the tutorial section of the Ionic docs!
-  </p>
-  <p>
+  <h3 text-center>Food at your fingertips!</h3>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-4></ion-col>
+      <ion-col col-4>
+        <button [navPush]="menuPage" ion-button icon-start color="danger" round>
+          <ion-icon name="home"></ion-icon>
+          Delivery
+        </button>
+      </ion-col>
+      <ion-col col-4></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-4></ion-col>
+      <ion-col col-4>
+        <button ion-button icon-start color="danger" round>
+          <ion-icon name="contact"></ion-icon>
+          Pick Up
+        </button>
+      </ion-col>
+      <ion-col col-4></ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <!--p>
     <button ion-button color="primary" menuToggle>Toggle Menu</button>
-  </p>
+  </p-->
 
 </ion-content>
