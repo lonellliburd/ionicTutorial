@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>menu</ion-title>
+    <ion-title>Menu</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -16,57 +16,49 @@
 <ion-content padding>
   <img src="assets/imgs/pizzaHut-logo.png"/>
 
-  <!--div class="card">
-    <div class="container">
-      <h4><b>Signature Classics</b></h4>
-    </div>
+  <div id="button-layout">
+    <ion-grid>
+      <ion-row>
+        <ion-col col-6>
+          <div class="card">
+            <div class="container">
+              <h4><b>Signature <br/>Pizzas</b></h4>
+            </div>
+          </div>
+        </ion-col>
+        <ion-col col-6>
+          <div class="card">
+            <div class="container">
+              <h4><b>New <br/>Classics</b></h4>
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-6>
+          <div class="card">
+            <div class="container">
+              <h4><b>Just <br/> For You</b></h4>
+            </div>
+          </div>
+        </ion-col>
+        <ion-col [navPush]="specialsPage" col-6><div class="card">
+          <div class="container">
+            <h4><b>Lover's <br/> Line</b></h4>
+          </div>
+        </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-12>
+          <div class="card">
+            <div class="container">
+              <h4><b class="bigger">Create Your Own</b></h4>
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </div>
-  <div class="card">
-    <div class="container">
-      <h4><b>Signature Classics</b></h4>
-    </div>
-  </div-->
 
-  <ion-grid>
-    <ion-row>
-      <ion-col col-6>
-        <div class="card">
-          <div class="container">
-            <h4><b>Signature <br/>Pizzas</b></h4>
-          </div>
-        </div>
-      </ion-col>
-      <ion-col col-6>
-        <div class="card">
-          <div class="container">
-            <h4><b>New Classics</b></h4>
-          </div>
-        </div>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col col-6>
-        <div class="card">
-          <div class="container">
-            <h4><b>Just <br/> For You</b></h4>
-          </div>
-        </div>
-      </ion-col>
-      <ion-col col-6><div class="card">
-        <div class="container">
-          <h4><b>Lover's <br/> Line</b></h4>
-        </div>
-      </div>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col col-12>
-        <div class="card">
-          <div class="container">
-            <h4><b class="bigger">Create Your Own</b></h4>
-          </div>
-        </div>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
 </ion-content>
