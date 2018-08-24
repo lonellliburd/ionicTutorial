@@ -3,6 +3,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { SpecialsDetailPage } from '../specials-detail/specials-detail';
 
+import { ViewController } from 'ionic-angular';
+
 /**
  * Generated class for the SpecialsPage page.
  *
@@ -18,11 +20,15 @@ import { SpecialsDetailPage } from '../specials-detail/specials-detail';
 export class SpecialsPage {
   specialsDetailPage = SpecialsDetailPage;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl : ViewController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SpecialsPage');
+  }
+
+  ionViewWillEnter(){
+    this.viewCtrl.setBackButtonText("Menu");
   }
 
 }

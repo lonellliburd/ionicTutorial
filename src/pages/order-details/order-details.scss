@@ -1,0 +1,61 @@
+page-order-details {
+  ion-content {
+    background-image: url('../../assets/imgs/pizza-hut-background.jpg');
+
+  }
+
+  .label-form{
+
+  }
+
+  .total{
+    font-size: x-large;
+    float:right;
+  }
+
+  .cart-box{
+    width: 50px;
+  }
+  .item-price{
+    color: #ff9e3c;
+  }
+
+  .select-text{
+    max-width: 5%;
+    color: #ffecec;
+  }
+
+  .item-name{
+    font-weight:bold;
+    color: #D8731A;
+  }
+
+  .item-desc{
+    color: #ffecec;
+  }
+
+  .item.item-block{
+    background-color: transparent !important;
+  }
+
+  #order-box{
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(12,9,7,0.9) 50%,rgba(12,9,7,0.79) 100%);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  #order-box h1, h1{
+    color: #E59729;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+  }
+
+  .back-button{
+    color: #ffecec;
+  }
+
+  .confirm{
+    float:right;
+    background-color: #000000;
+  }
+
+}

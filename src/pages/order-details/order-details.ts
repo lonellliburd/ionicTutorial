@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-import { SpecialsPage } from '../specials/specials';
 import { ViewController } from 'ionic-angular';
 
 /**
- * Generated class for the MenuPage page.
+ * Generated class for the OrderDetailsPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -13,21 +11,20 @@ import { ViewController } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-menu',
-  templateUrl: 'menu.html',
+  selector: 'page-order-details',
+  templateUrl: 'order-details.html',
 })
-export class MenuPage {
-  specialsPage = SpecialsPage;
+export class OrderDetailsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl : ViewController) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad MenuPage');
+    console.log('ionViewDidLoad OrderDetailsPage');
   }
 
   ionViewWillEnter(){
-    this.viewCtrl.setBackButtonText("Home");
+    this.viewCtrl.setBackButtonText("Order");
   }
 
 }

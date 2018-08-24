@@ -9,6 +9,7 @@ import { ListPage } from '../pages/list/list';
 import { MenuPage } from '../pages/menu/menu';
 import { SpecialsPage } from '../pages/specials/specials';
 import { SpecialsDetailPage } from '../pages/specials-detail/specials-detail';
+import { OrderDetailsPage } from '../pages/order-details/order-details';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -21,7 +22,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     MenuPage,
     SpecialsPage,
-    SpecialsDetailPage
+    SpecialsDetailPage,
+    OrderDetailsPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     MenuPage,
     SpecialsPage,
-    SpecialsDetailPage
+    SpecialsDetailPage,
+    OrderDetailsPage
   ],
   providers: [
     StatusBar,
