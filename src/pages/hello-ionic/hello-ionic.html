@@ -15,19 +15,19 @@
 
 <ion-content padding>
 
-  <img src="assets/imgs/pizzaHut-logo.png"/>
+  <img class="logo" src="assets/imgs/pizzaHut-logo-white.png"/>
 
-  <h3 text-center>Food at your fingertips!</h3>
+  <h3 class="motto" text-center>Food at your fingertips!</h3>
 
 
   <ion-grid>
     <ion-row>
       <ion-col col-12>
-        <button [navPush]="menuPage" ion-button icon-start color="danger" round>
+        <button [navPush]="menuPage" class="home-button" ion-button icon-start round>
         <ion-icon name="home"></ion-icon>
         Delivery
       </button></ion-col>
-      <ion-col col-12><button ion-button icon-start color="danger" round>
+      <ion-col col-12><button class="home-button" ion-button icon-start round>
         <ion-icon name="contact"></ion-icon>
         Carry Out
       </button></ion-col>

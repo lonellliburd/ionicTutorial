@@ -4,4 +4,24 @@ page-specials-detail {
     width: 90px;
     height: 90px;
   }
+
+  .size-name{
+  }
+
+  .size-price{
+  }
+
+  .item ion-thumbnail img{
+    min-width: 140px;
+    min-height: 126px;
+  }
+
+  button.button-outline{
+    color: #1c1c1c;
+    border-color: #1c1c1c;
+  }
+
+  button.button-default{
+    background-color: #1c1c1c;
+  }
 }

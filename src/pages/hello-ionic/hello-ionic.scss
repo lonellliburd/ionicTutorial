@@ -7,16 +7,43 @@ page-hello-ionic {
 
   }
 
+  .logo {
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20%;
+  }
+
   ion-header .bar-button{
     color: #ffffff;
   }
 
   ion-col button {
     position: absolute;
-    top: 350%;
+    top: 250%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+
+  }
+
+  .button {
+    background-color: #ED1B24;
     width: 300px;
+    height: 60px;
+  }
+
+  .home-button{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  .motto{
+    padding-top:20px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px #000000
   }
 }
