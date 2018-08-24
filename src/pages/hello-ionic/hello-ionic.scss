@@ -6,4 +6,17 @@ page-hello-ionic {
     background-position: top;
 
   }
+
+  ion-header .bar-button{
+    color: #ffffff;
+  }
+
+  ion-col button {
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+  }
 }

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import { SpecialsDetailPage } from '../specials-detail/specials-detail';
 
 /**
  * Generated class for the SpecialsPage page.
@@ -15,6 +16,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'specials.html',
 })
 export class SpecialsPage {
+  specialsDetailPage = SpecialsDetailPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

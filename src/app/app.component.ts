@@ -6,6 +6,7 @@ import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ListPage } from '../pages/list/list';
 import { MenuPage } from '../pages/menu/menu';
 import { SpecialsPage } from '../pages/specials/specials';
+import { SpecialsDetailPage } from '../pages/specials-detail/specials-detail';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -34,7 +35,8 @@ export class MyApp {
       { title: 'Hello Ionic', component: HelloIonicPage },
       { title: 'My First List', component: ListPage },
       { title: 'Menu Page', component: MenuPage },
-      { title: 'Specials Page', component: SpecialsPage }
+      { title: 'Specials Page', component: SpecialsPage },
+      { title: 'Specials Detail Page', component: SpecialsDetailPage }
     ];
   }
 

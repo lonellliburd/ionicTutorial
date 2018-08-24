@@ -1,12 +1,12 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar transparent>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title></ion-title>
     <ion-buttons end>
-      <button ion-button icon-only color="royal">
-        <ion-icon name="person-add"></ion-icon>
+      <button ion-button icon-only>
+        Join or Sign In <ion-icon name="person-add"></ion-icon>
       </button>
     </ion-buttons>
   </ion-navbar>
@@ -22,26 +22,18 @@
 
   <ion-grid>
     <ion-row>
-      <ion-col col-4></ion-col>
-      <ion-col col-4>
+      <ion-col col-12>
         <button [navPush]="menuPage" ion-button icon-start color="danger" round>
-          <ion-icon name="home"></ion-icon>
-          Delivery
-        </button>
-      </ion-col>
-      <ion-col col-4></ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col col-4></ion-col>
-      <ion-col col-4>
-        <button ion-button icon-start color="danger" round>
-          <ion-icon name="contact"></ion-icon>
-          Carry Out
-        </button>
-      </ion-col>
-      <ion-col col-4></ion-col>
+        <ion-icon name="home"></ion-icon>
+        Delivery
+      </button></ion-col>
+      <ion-col col-12><button ion-button icon-start color="danger" round>
+        <ion-icon name="contact"></ion-icon>
+        Carry Out
+      </button></ion-col>
     </ion-row>
   </ion-grid>
+
 
 
   <!--p>
